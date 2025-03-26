@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progetto.progetto_asl.ControllerInserisciPod">
+    <children>
+        <TextField fx:id="codiceMandato" layoutX="199.0" layoutY="65.0" prefHeight="34.0" prefWidth="160.0" promptText="CODICE POD" />
+        <TextField fx:id="numeroAtto" layoutX="199.0" layoutY="117.0" prefHeight="34.0" prefWidth="160.0" promptText="NUMERO CONTATORE">
+            <font>
+                <Font name="SansSerif Regular" size="12.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="dataRecapito" layoutX="199.0" layoutY="166.0" prefHeight="34.0" prefWidth="160.0" promptText="LETTUA MANUALE">
+            <font>
+                <Font name="SansSerif Regular" size="12.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="email" layoutX="199.0" layoutY="220.0" prefHeight="34.0" prefWidth="160.0" promptText="DATA">
+            <font>
+                <Font name="SansSerif Regular" size="12.0" />
+            </font>
+        </TextField>
+        <Button layoutX="226.0" layoutY="314.0" mnemonicParsing="false" onAction="#inserimento" prefHeight="34.0" prefWidth="106.0" style="-fx-background-color: black;" text="INSERISCI" textFill="WHITE">
+            <font>
+                <Font name="SansSerif Regular" size="12.0" />
+            </font>
+        </Button>
+      <ImageView fitHeight="70.0" fitWidth="80.0" layoutX="22.0" layoutY="13.0">
+         <image>
+            <Image url="@img/indietro-nera.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="27.0" layoutY="27.0" mnemonicParsing="false" onAction="#tornaIndietro" opacity="0.0" prefHeight="43.0" prefWidth="69.0" text="Button" />
+    </children>
+</Pane>

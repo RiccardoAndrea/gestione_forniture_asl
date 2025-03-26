@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="703.0" prefWidth="1250.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progetto.progetto_asl.ControllerSezionePrincipale">
+   <children>
+      <AnchorPane layoutX="30.0" layoutY="25.0" prefHeight="664.0" prefWidth="187.0" style="-fx-border-color: black; -fx-background-color: white;">
+         <children>
+            <Text fontSmoothingType="LCD" layoutX="24.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ricerca" wrappingWidth="117.13671875">
+               <font>
+                  <Font name="SansSerif Regular" size="18.0" />
+               </font>
+            </Text>
+            <Text fontSmoothingType="LCD" layoutX="14.0" layoutY="388.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Inserisci" wrappingWidth="117.13671875">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Button fx:id="pod" layoutX="24.0" layoutY="47.0" mnemonicParsing="false" onAction="#changeButton" prefHeight="29.0" prefWidth="129.0" style="-fx-background-color: gray; -fx-border-color: black;" text="Pod" textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font></Button>
+            <Button fx:id="n_fattura" layoutX="24.0" layoutY="87.0" mnemonicParsing="false" onAction="#changeButton" prefHeight="31.0" prefWidth="129.0" style="-fx-background-color: white; -fx-border-color: black;" text="N° fattura">
+               <font>
+                  <Font size="13.0" />
+               </font></Button>
+            <Button fx:id="distretto" layoutX="24.0" layoutY="126.0" mnemonicParsing="false" onAction="#changeButton" prefHeight="29.0" prefWidth="129.0" style="-fx-background-color: white; -fx-border-color: black;" text="Distretto">
+               <font>
+                  <Font size="13.0" />
+               </font></Button>
+            <Button fx:id="fornitore" layoutX="24.0" layoutY="163.0" mnemonicParsing="false" onAction="#changeButton" prefHeight="29.0" prefWidth="129.0" style="-fx-background-color: white; -fx-border-color: black;" text="Fornitore">
+               <font>
+                  <Font size="13.0" />
+               </font></Button>
+            <Button fx:id="insBolletta" layoutX="24.0" layoutY="401.0" mnemonicParsing="false" onAction="#caricaBolletta" prefHeight="31.0" prefWidth="129.0" style="-fx-background-color: white; -fx-border-color: black;" text="Bolletta">
+               <font>
+                  <Font size="13.0" />
+               </font></Button>
+            <Button fx:id="struttura" layoutX="24.0" layoutY="202.0" mnemonicParsing="false" onAction="#changeButton" prefHeight="31.0" prefWidth="129.0" style="-fx-background-color: white; -fx-border-color: black;" text="Struttura">
+               <font>
+                  <Font size="13.0" />
+               </font></Button>
+            <Button fx:id="contratto" layoutX="24.0" layoutY="241.0" mnemonicParsing="false" onAction="#changeButton" prefHeight="29.0" prefWidth="129.0" style="-fx-background-color: white; -fx-border-color: black;" text="Contratto">
+               <font>
+                  <Font size="13.0" />
+               </font></Button>
+            <Button fx:id="dipendente" layoutX="24.0" layoutY="278.0" mnemonicParsing="false" onAction="#changeButton" prefHeight="29.0" prefWidth="129.0" style="-fx-background-color: white; -fx-border-color: black;" text="Dipendente">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="mandato" layoutX="24.0" layoutY="319.0" mnemonicParsing="false" onAction="#changeButton" prefHeight="31.0" prefWidth="129.0" style="-fx-background-color: white; -fx-border-color: black;" text="Mandato">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="insMandato" layoutX="24.0" layoutY="439.0" mnemonicParsing="false" onAction="#caricaMandato" prefHeight="31.0" prefWidth="129.0" style="-fx-background-color: white; -fx-border-color: black;" text="Mandato">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="insContratto" layoutX="24.0" layoutY="476.0" mnemonicParsing="false" onAction="#caricaContratto" prefHeight="31.0" prefWidth="129.0" style="-fx-background-color: white; -fx-border-color: black;" text="Contratto">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="insFornitore" layoutX="24.0" layoutY="513.0" mnemonicParsing="false" onAction="#caricaFornitore" prefHeight="31.0" prefWidth="129.0" style="-fx-background-color: white; -fx-border-color: black;" text="Fornitore">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="insStruttura" layoutX="24.0" layoutY="550.0" mnemonicParsing="false" onAction="#caricaStruttura" prefHeight="31.0" prefWidth="129.0" style="-fx-background-color: white; -fx-border-color: black;" text="Struttura">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="insDistretto" layoutX="24.0" layoutY="587.0" mnemonicParsing="false" onAction="#caricaDistretto" prefHeight="31.0" prefWidth="129.0" style="-fx-background-color: white; -fx-border-color: black;" text="Distretto">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="insDipendente" layoutX="24.0" layoutY="625.0" mnemonicParsing="false" onAction="#caricaDipendente" prefHeight="31.0" prefWidth="129.0" style="-fx-background-color: white; -fx-border-color: black;" text="Dipendente">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Button fx:id="cerca" layoutX="1142.0" layoutY="25.0" mnemonicParsing="false" onAction="#buttonCerca" prefHeight="41.0" prefWidth="70.0" style="-fx-background-color: white; -fx-border-color: grey;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <TextField fx:id="label" layoutX="225.0" layoutY="25.0" prefHeight="41.0" prefWidth="919.0" promptText="Ricerca per numero pod" style="-fx-border-color: grey;">
+         <font>
+            <Font name="SansSerif Regular" size="13.0" />
+         </font></TextField>
+      <Button fx:id="ultimoPagamento" layoutX="250.0" layoutY="607.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="129.0" style="-fx-background-color: black;" text="Ultimo Pagamento" textFill="WHITE" />
+      <Button fx:id="modificaAdeguatezza" layoutX="409.0" layoutY="607.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="129.0" style="-fx-background-color: black;" text="Adeguetezza" textFill="WHITE" />
+      <Button fx:id="cessaContratto" layoutX="560.0" layoutY="607.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="129.0" style="-fx-background-color: black;" text="Cessa Contratto" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Regular" size="12.0" />
+         </font></Button>
+      <ImageView fx:id="iconaCerca" fitHeight="24.0" fitWidth="24.0" layoutX="1165.0" layoutY="35.0">
+         <image>
+            <Image url="@img/magnifying-glass-solid.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="confrontoLettura" layoutX="719.0" layoutY="607.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="129.0" style="-fx-background-color: black;" text="Confronto Lettura" textFill="WHITE" />
+      <Button fx:id="distretto1" layoutX="872.0" layoutY="607.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="129.0" style="-fx-background-color: black;" text="Distretto1" textFill="WHITE" visible="false" />
+      <Button fx:id="distretto2" layoutX="1022.0" layoutY="607.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="129.0" style="-fx-background-color: black;" text="Distretto2" textFill="WHITE" visible="false" />
+      <TableView fx:id="tabella" layoutX="224.0" layoutY="80.0" prefHeight="492.0" prefWidth="988.0" style="-fx-base: gray;">
+         <columns>
+            <TableColumn fx:id="colonna1" prefWidth="85.0" text="Numero Fattura" />
+            <TableColumn fx:id="colonna2" prefWidth="54.0" text="Costo" />
+            <TableColumn fx:id="colonna3" prefWidth="86.0" text="Energia Attiva" />
+            <TableColumn fx:id="colonna4" prefWidth="100.0" text="Energia reattiva" />
+            <TableColumn fx:id="colonna5" prefWidth="107.0" text="Potenza prelevata" />
+            <TableColumn fx:id="colonna6" minWidth="2.0" prefWidth="108.0" text="Servizi Di Vendita" />
+            <TableColumn fx:id="colonna7" minWidth="0.0" prefWidth="85.0" text="Servizi_Rete" />
+            <TableColumn fx:id="colonna8" minWidth="0.0" prefWidth="56.0" text="Imposte" />
+            <TableColumn fx:id="colonna9" minWidth="0.0" prefWidth="40.0" text="Iva" />
+            <TableColumn fx:id="colonna10" minWidth="2.66668701171875" prefWidth="72.0" text="Codice Pod" />
+            <TableColumn fx:id="colonna11" minWidth="0.0" prefWidth="78.0" text="Centro Costo" />
+            <TableColumn fx:id="colonna12" minWidth="0.0" prefWidth="131.0" text="Data Emissione" />
+         </columns>
+      </TableView>
+   </children>
+</Pane>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ee1e94c5-ede4-48a4-8990-423289f06f3b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/ojdbc11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/progetto/progetto_asl/AdminAutorizzazioneStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/progetto/progetto_asl/AutorizzazioneContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/progetto/progetto_asl/Bolletta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/progetto/progetto_asl/BollettaAcqua.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/progetto/progetto_asl/BollettaElettrica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/progetto/progetto_asl/BollettaElettricaDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/progetto/progetto_asl/BollettaFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/progetto/progetto_asl/BollettaGas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/progetto/progetto_asl/ConnessioneDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/progetto/progetto_asl/Contratto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/progetto/progetto_asl/ControllerInserisciBolletta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/progetto/progetto_asl/ControllerInserisciContratto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/progetto/progetto_asl/ControllerInserisciDipendente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/progetto/progetto_asl/ControllerInserisciDistretto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/progetto/progetto_asl/ControllerInserisciFornitore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/progetto/progetto_asl/ControllerInserisciMandato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/progetto/progetto_asl/ControllerInserisciStruttura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/progetto/progetto_asl/ControllerLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/progetto/progetto_asl/ControllerSezionePrincipale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/progetto/progetto_asl/Dipendente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/progetto/progetto_asl/DipendenteDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/progetto/progetto_asl/Distretto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/progetto/progetto_asl/Fornitore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/progetto/progetto_asl/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/progetto/progetto_asl/InterfacciaAutorizzazioneStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/progetto/progetto_asl/InterfacciaClonabePrototype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/progetto/progetto_asl/InterfacciaDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/progetto/progetto_asl/InterfacciaFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/progetto/progetto_asl/LicenziatoAutorizzazioneStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/progetto/progetto_asl/Mandato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/progetto/progetto_asl/OggettoCondiviso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/progetto/progetto_asl/RegularAutorizzazioneStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/progetto/progetto_asl/Struttura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/progetto/progetto_asl/Supporto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/progetto/progetto_asl/VistaLuce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/progetto/progetto_asl/InserisciBolletta.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/progetto/progetto_asl/InserisciContratto.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/progetto/progetto_asl/InserisciDipendente.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/progetto/progetto_asl/InserisciDistretto.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/progetto/progetto_asl/InserisciFornitore.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/progetto/progetto_asl/InserisciMandato.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/progetto/progetto_asl/InserisciPod.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/progetto/progetto_asl/InserisciStruttura.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/progetto/progetto_asl/SezionePrincipale.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/progetto/progetto_asl/img/circle-left-solid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/progetto/progetto_asl/img/envelope-solid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/progetto/progetto_asl/img/file-arrow-up-solid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/progetto/progetto_asl/img/gear-solid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/progetto/progetto_asl/img/indietro-nera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/progetto/progetto_asl/img/key-solid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/progetto/progetto_asl/img/logo_old.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/progetto/progetto_asl/img/magnifying-glass-solid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/progetto/progetto_asl/img/ministeroSalute.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/progetto/progetto_asl/img/trash-solid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/progetto/progetto_asl/login.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2KWK2yTCgCLyOHrX9uevqx50Jdf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/ricca/Desktop/Programmazione 3/Progetto_Consegnato/Progetto_Programmazione_III/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Java"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ee1e94c5-ede4-48a4-8990-423289f06f3b" name="Changes" comment="" />
+      <created>1674084697921</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674084697921</updated>
+      <workItem from="1674084699579" duration="5202000" />
+      <workItem from="1674117761209" duration="3199000" />
+      <workItem from="1674122702713" duration="1031000" />
+      <workItem from="1674123941877" duration="31782000" />
+      <workItem from="1674174977897" duration="1520000" />
+      <workItem from="1674204933997" duration="12025000" />
+      <workItem from="1674220761485" duration="2009000" />
+      <workItem from="1674228727503" duration="47000" />
+      <workItem from="1674228812117" duration="34000" />
+      <workItem from="1674228863181" duration="59000" />
+      <workItem from="1674228935320" duration="329000" />
+      <workItem from="1674229351717" duration="1694000" />
+      <workItem from="1674241592346" duration="135000" />
+      <workItem from="1674345051470" duration="611000" />
+      <workItem from="1674394997188" duration="54000" />
+      <workItem from="1674405616852" duration="1218000" />
+      <workItem from="1674418941878" duration="39000" />
+      <workItem from="1674495966133" duration="2395000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eace3d49-9a36-4156-b626-1f21c3b6651a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/libs/ojdbc11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/java/progetto/progetto_asl/AdminAutorizzazioneStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/java/progetto/progetto_asl/AutorizzazioneContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/java/progetto/progetto_asl/Bolletta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/java/progetto/progetto_asl/BollettaAcqua.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/java/progetto/progetto_asl/BollettaElettrica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/java/progetto/progetto_asl/BollettaElettricaDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/java/progetto/progetto_asl/BollettaFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/java/progetto/progetto_asl/BollettaGas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/java/progetto/progetto_asl/ConnessioneDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/java/progetto/progetto_asl/Contratto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/java/progetto/progetto_asl/ControllerInserisciBolletta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/java/progetto/progetto_asl/ControllerInserisciContratto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/java/progetto/progetto_asl/ControllerInserisciDipendente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/java/progetto/progetto_asl/ControllerInserisciDistretto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/java/progetto/progetto_asl/ControllerInserisciFornitore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/java/progetto/progetto_asl/ControllerInserisciMandato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/java/progetto/progetto_asl/ControllerInserisciStruttura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/java/progetto/progetto_asl/ControllerLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/java/progetto/progetto_asl/ControllerSezionePrincipale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/java/progetto/progetto_asl/Dipendente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/java/progetto/progetto_asl/DipendenteDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/java/progetto/progetto_asl/Distretto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/java/progetto/progetto_asl/Fornitore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/java/progetto/progetto_asl/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/java/progetto/progetto_asl/InterfacciaAutorizzazioneStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/java/progetto/progetto_asl/InterfacciaClonabePrototype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/java/progetto/progetto_asl/InterfacciaDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/java/progetto/progetto_asl/InterfacciaFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/java/progetto/progetto_asl/LicenziatoAutorizzazioneStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/java/progetto/progetto_asl/Mandato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/java/progetto/progetto_asl/OggettoCondiviso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/java/progetto/progetto_asl/RegularAutorizzazioneStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/java/progetto/progetto_asl/Struttura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/java/progetto/progetto_asl/Supporto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/java/progetto/progetto_asl/VistaLuce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/resources/progetto/progetto_asl/InserisciBolletta.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/resources/progetto/progetto_asl/InserisciContratto.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/resources/progetto/progetto_asl/InserisciDipendente.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/resources/progetto/progetto_asl/InserisciDistretto.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/resources/progetto/progetto_asl/InserisciFornitore.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/resources/progetto/progetto_asl/InserisciMandato.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/resources/progetto/progetto_asl/InserisciPod.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/resources/progetto/progetto_asl/InserisciStruttura.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/resources/progetto/progetto_asl/SezionePrincipale.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/resources/progetto/progetto_asl/img/circle-left-solid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/resources/progetto/progetto_asl/img/envelope-solid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/resources/progetto/progetto_asl/img/file-arrow-up-solid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/resources/progetto/progetto_asl/img/gear-solid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/resources/progetto/progetto_asl/img/indietro-nera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/resources/progetto/progetto_asl/img/key-solid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/resources/progetto/progetto_asl/img/logo_old.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/resources/progetto/progetto_asl/img/magnifying-glass-solid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/resources/progetto/progetto_asl/img/ministeroSalute.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/resources/progetto/progetto_asl/img/trash-solid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450/src/main/resources/progetto/progetto_asl/login.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2KbRtwqbZWQwgVe21S7dnWGWVea" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/ricca/Desktop/Nuova cartella (2)/Progetto_Programmazione_III/Gestione_Forniture_Asl_Riccardo_Andrea_Spinosa_0124002253_Alessandro_Massadoro_0124002450"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eace3d49-9a36-4156-b626-1f21c3b6651a" name="Changes" comment="" />
+      <created>1674241516499</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674241516499</updated>
+      <workItem from="1674241517722" duration="71000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

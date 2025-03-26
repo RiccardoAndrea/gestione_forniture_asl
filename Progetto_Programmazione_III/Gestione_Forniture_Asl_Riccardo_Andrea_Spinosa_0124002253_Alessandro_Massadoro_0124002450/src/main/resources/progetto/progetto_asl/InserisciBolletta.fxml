@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progetto.progetto_asl.ControllerInserisciBolletta">
+   <top>
+      <Pane prefHeight="94.0" prefWidth="1000.0" style="-fx-background-color: black;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="330.0" layoutY="33.0" prefHeight="32.0" prefWidth="196.0" text="Seleziona il tipo" textFill="WHITE" textOverrun="LEADING_ELLIPSIS">
+               <font>
+                  <Font name="SansSerif Regular" size="24.0" />
+               </font>
+            </Label>
+            <SplitMenuButton fx:id="Menu" graphicTextGap="3.0" layoutX="504.0" layoutY="36.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="119.0" text="Elettrica">
+              <items>
+                <MenuItem fx:id="elettrica" mnemonicParsing="false" onAction="#scegliBolletta" text="Elettrica" />
+                <MenuItem fx:id="gas" mnemonicParsing="false" onAction="#scegliBolletta" text="Gas" />
+                  <MenuItem fx:id="acqua" mnemonicParsing="false" onAction="#scegliBolletta" text="Acqua" />
+              </items>
+               <font>
+                  <Font name="SansSerif Regular" size="15.0" />
+               </font>
+            </SplitMenuButton>
+            <Button layoutX="60.0" layoutY="25.0" mnemonicParsing="false" onAction="#tornaIndietro" opacity="0.0" prefHeight="51.0" prefWidth="96.0" style="-fx-background-color: white;" textFill="#fcfcfc" />
+            <ImageView fitHeight="55.0" fitWidth="66.0" layoutX="75.0" layoutY="22.0">
+               <image>
+                  <Image url="@img/circle-left-solid.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </top>
+   <bottom>
+      <Pane prefHeight="101.0" prefWidth="999.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="403.0" layoutY="56.0" mnemonicParsing="false" onAction="#inserisiBolletta" prefHeight="34.0" prefWidth="195.0" style="-fx-background-color: black;" text="Inserisci" textFill="WHITE">
+               <font>
+                  <Font name="SansSerif Regular" size="20.0" />
+               </font></Button>
+            <Text fx:id="campiObbligatori" fill="#f60202" layoutX="429.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Inserisci Campi Obbligatori" visible="false" />
+         </children>
+      </Pane>
+   </bottom>
+   <center>
+      <Pane prefHeight="545.0" prefWidth="1000.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="labelNfattura" layoutX="269.0" layoutY="14.0" prefHeight="41.0" prefWidth="180.0" promptText="NUMERO FATTURA*" />
+            <TextField fx:id="labelPeriodo" layoutX="269.0" layoutY="75.0" prefHeight="41.0" prefWidth="180.0" promptText="PERIODO*" />
+            <TextField fx:id="labelTotPagare" layoutX="269.0" layoutY="139.0" prefHeight="41.0" prefWidth="180.0" promptText="TOTALE DA PAGARE*" />
+            <TextField fx:id="labelDataEmissione" layoutX="269.0" layoutY="198.0" prefHeight="41.0" prefWidth="180.0" promptText="DATA EMISSIONE*" />
+            <TextField fx:id="labelIva" layoutX="269.0" layoutY="255.0" prefHeight="41.0" prefWidth="180.0" promptText="IVA*" />
+            <TextField fx:id="labelImposte" layoutX="269.0" layoutY="312.0" prefHeight="41.0" prefWidth="180.0" promptText="IMPOSTE*" />
+            <TextField fx:id="labelCostiGenerali" layoutX="269.0" layoutY="437.0" prefHeight="41.0" prefWidth="180.0" promptText="COSTI GENERALI*" />
+            <TextField fx:id="labelScadenza" layoutX="269.0" layoutY="375.0" prefHeight="41.0" prefWidth="180.0" promptText="SCADENZA*" />
+            <TextField fx:id="labelEnergiaReattiva" layoutX="551.0" layoutY="437.0" prefHeight="41.0" prefWidth="180.0" promptText="ENERGIA REATTIVA*" />
+            <TextField fx:id="labelPotenzaPrelevata" layoutX="551.0" layoutY="139.0" prefHeight="41.0" prefWidth="180.0" promptText="POTENZA PRELEVATA*" />
+            <TextField fx:id="labelCts" layoutX="551.0" layoutY="255.0" prefHeight="41.0" prefWidth="180.0" promptText="CTS" />
+            <TextField fx:id="labelEnergiaAttiva" layoutX="551.0" layoutY="375.0" prefHeight="41.0" prefWidth="180.0" promptText="ENERGIA ATTIVA*" />
+            <TextField fx:id="labelServiziDiRete" layoutX="551.0" layoutY="312.0" prefHeight="41.0" prefWidth="180.0" promptText="SERVIZI DI RETE" />
+            <TextField fx:id="labelServiziDiVendita" layoutX="551.0" layoutY="198.0" prefHeight="41.0" prefWidth="180.0" promptText="SERVIZI DI VENDITA" />
+            <TextField fx:id="labelPod" layoutX="551.0" layoutY="75.0" prefHeight="41.0" prefWidth="180.0" promptText="POD*" />
+            <TextField fx:id="labelCig" layoutX="551.0" layoutY="14.0" prefHeight="41.0" prefWidth="180.0" promptText="CIG*" />
+            <TextField fx:id="labelCodiceAtto" layoutX="269.0" layoutY="497.0" prefHeight="41.0" prefWidth="180.0" promptText="CODICE MANDATO*" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>

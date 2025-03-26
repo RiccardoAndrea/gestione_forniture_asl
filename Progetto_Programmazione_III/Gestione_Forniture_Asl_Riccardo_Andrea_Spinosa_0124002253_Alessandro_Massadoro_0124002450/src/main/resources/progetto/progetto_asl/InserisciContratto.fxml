@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progetto.progetto_asl.ControllerInserisciContratto">
+    <children>
+        <TextField fx:id="cig" layoutX="101.0" layoutY="95.0" prefHeight="41.0" prefWidth="180.0" promptText="CIG*">
+            <font>
+                <Font name="SansSerif Regular" size="12.0" />
+            </font></TextField>
+        <TextField fx:id="centroCosto" layoutX="101.0" layoutY="147.0" prefHeight="41.0" prefWidth="180.0" promptText="CENTRO COSTO*">
+            <font>
+                <Font name="SansSerif Regular" size="12.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="potenzaContrattuale" layoutX="101.0" layoutY="194.0" prefHeight="41.0" prefWidth="180.0" promptText="POTENZA CONTRATTUALE*">
+            <font>
+                <Font name="SansSerif Regular" size="12.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="depositoCauzionale" layoutX="101.0" layoutY="242.0" prefHeight="41.0" prefWidth="180.0" promptText="DEPOSITO CAUZIONALE">
+            <font>
+                <Font name="SansSerif Regular" size="12.0" />
+            </font>
+        </TextField>
+        <Button layoutX="242.0" layoutY="478.0" mnemonicParsing="false" onAction="#inserisciContratto" prefHeight="41.0" prefWidth="117.0" style="-fx-background-color: black;" text="INSERISCI" textFill="WHITE">
+            <font>
+                <Font name="SansSerif Regular" size="12.0" />
+            </font>
+        </Button>
+        <TextField fx:id="partitaIva" layoutX="321.0" layoutY="97.0" prefHeight="41.0" prefWidth="180.0" promptText="PARTITA IVA*" />
+        <TextField fx:id="codicePod" layoutX="321.0" layoutY="149.0" prefHeight="41.0" prefWidth="180.0" promptText="CODICE POD*">
+            <font>
+                <Font name="SansSerif Regular" size="12.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="condizioneMercato" layoutX="321.0" layoutY="196.0" prefHeight="41.0" prefWidth="180.0" promptText="CONDIZIONE MERCATO*">
+            <font>
+                <Font name="SansSerif Regular" size="12.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="tipoFornitura" layoutX="321.0" layoutY="244.0" prefHeight="41.0" prefWidth="180.0" promptText="TIPO FORNITURA*">
+            <font>
+                <Font name="SansSerif Regular" size="12.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="stato" layoutX="101.0" layoutY="295.0" prefHeight="41.0" prefWidth="180.0" promptText="STATO*">
+            <font>
+                <Font name="SansSerif Regular" size="12.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="tipo" layoutX="321.0" layoutY="291.0" prefHeight="41.0" prefWidth="180.0" promptText="ACQUA LUCE O GAS*">
+            <font>
+                <Font name="SansSerif Regular" size="12.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="adeguatezza" layoutX="101.0" layoutY="346.0" prefHeight="41.0" prefWidth="180.0" promptText="ADEGUATEZZA*">
+            <font>
+                <Font name="SansSerif Regular" size="12.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="protocolloAdeguatezza" layoutX="321.0" layoutY="346.0" prefHeight="41.0" prefWidth="180.0" promptText="PROTOCOLLO ADEGUATEZZA">
+            <font>
+                <Font name="SansSerif Regular" size="12.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="dataAdeguatezza" layoutX="101.0" layoutY="396.0" prefHeight="41.0" prefWidth="180.0" promptText="DATA ADEGUATEZZA">
+            <font>
+                <Font name="SansSerif Regular" size="12.0" />
+            </font>
+        </TextField>
+      <Button layoutX="5.0" layoutY="14.0" mnemonicParsing="false" onAction="#tornaIndietro" opacity="0.0" prefHeight="51.0" prefWidth="80.0" text="Button" />
+      <ImageView fitHeight="70.0" fitWidth="80.0" layoutX="5.0" layoutY="1.0">
+         <image>
+            <Image url="@img/indietro-nera.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="244.0" layoutY="20.0" text="Contratto">
+         <font>
+            <Font name="SansSerif Regular" size="27.0" />
+         </font>
+      </Label>
+      <Text fx:id="campiOblligatori" fill="RED" layoutX="227.0" layoutY="461.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Inserisci i campi obbligatori" visible="false" />
+    </children>
+</Pane>

@@ -1,0 +1,9 @@
+Utente con privilegio 1.
+INSERT INTO DIPENDENTE
+Email: riccardoandreaspinosa@gmail.com
+Password: QOWNEBHVTCYZ89P$
+
+Utente con privilegio 2.
+
+Email:mauriziospinosa@gmail.com
+Password:QMWNEBRVTCYZ99P$.
