@@ -13,7 +13,7 @@
 
 - **Oracle PLSQL**: Linguaggio di programmazione per la gestione del database e delle operazioni SQL.
 - **Java**: Linguaggio di programmazione utilizzato per lo sviluppo dell'interfaccia utente e della logica applicativa.
-- **CLion**: IDE utilizzato per lo sviluppo e la gestione del progetto.
+- **InteliJ**: IDE utilizzato per lo sviluppo e la gestione del progetto.
 
 ## Struttura del progetto
 
