@@ -1,5 +1,8 @@
 # Gestione Forniture ASL
-
+## Autori
+- **Riccardo Andrea Spinosa**
+- **Alessandro Massadoro**
+  
 **Gestione Forniture ASL** è un'applicazione sviluppata per la gestione delle forniture e delle bollette delle strutture sanitarie dell'ASL. Il sistema si suddivide in distretti e ogni distretto è composto da differenti strutture. Ogni struttura stipula contratti di fornitura e riceve bollette per i vari servizi (acqua, gas, luce), che vengono poi pagate attraverso l'emissione di mandati. I mandati sono successivamente inviati a un ufficio centrale che si occupa della gestione burocratica. L'ufficio è unico e non è necessario essere memorizzato nel database.
 
 ## Funzionalità
