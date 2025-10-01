@@ -22,3 +22,8 @@
 
 L'applicazione è stata progettata per essere utilizzata dal personale specializzato nella gestione delle bollette dell'ASL. La logica di gestione dei dati è centralizzata, con l'utilizzo di un database relazionale che assicura una gestione ottimale delle bollette e dei mandati.
 interpellata l'asl per capirne la struttura.
+
+## Demo
+Presente come file scaricabile o visualizzabile al link:  
+
+[[Gestione Forniture ASL](https://youtu.be/3ZZewrXNwvE)](https://youtu.be/vaGD1TzXrFw)
